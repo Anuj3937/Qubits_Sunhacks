@@ -1,0 +1,367 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "submit": "Submit",
+    "next": "Next",
+    "back": "Back",
+    "close": "Close",
+    "search": "Search",
+    "filter": "Filter",
+    "upload": "Upload",
+    "download": "Download"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "signup": "Sign Up",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Full Name",
+    "forgotPassword": "Forgot Password?",
+    "rememberMe": "Remember Me",
+    "loginWithGoogle": "Login with Google",
+    "signupWithGoogle": "Sign up with Google",
+    "alreadyHaveAccount": "Already have an account?",
+    "dontHaveAccount": "Don't have an account?",
+    "welcomeBack": "Welcome back!",
+    "createAccount": "Create your account"
+  },
+  "onboarding": {
+    "welcome": "Welcome to StudyGenie!",
+    "subtitle": "Let's personalize your learning experience",
+    "academicLevel": "Academic Level",
+    "preferredLanguage": "Preferred Language",
+    "birthDate": "Date of Birth",
+    "continue": "Continue",
+    "skip": "Skip for now"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back, {{name}}!",
+    "stats": {
+      "totalMaterials": "Study Materials",
+      "avgQuizScore": "Average Quiz Score",
+      "studyStreak": "Study Streak",
+      "dueFlashcards": "Due Flashcards"
+    },
+    "recentActivity": "Recent Activity",
+    "studyGoals": "Study Goals",
+    "quickActions": "Quick Actions",
+    "uploadMaterial": "Upload Material",
+    "takeQuiz": "Take Quiz",
+    "reviewFlashcards": "Review Flashcards",
+    "askTutor": "Ask AI Tutor"
+  },
+  "upload": {
+    "title": "Upload Study Materials",
+    "subtitle": "Upload your PDFs, notes, images, or documents. Our AI will extract content and create personalized study tools for you.",
+    "dragDrop": "Drag and drop your study materials",
+    "orClick": "or click to browse files from your computer",
+    "dropHere": "Drop your files here",
+    "dropToUpload": "Drop to upload",
+    "supportedFormats": "Supported formats: PDF, DOC, DOCX, TXT, Images",
+    "maxSize": "Maximum file size: 10MB per file",
+    "fileTooLarge": "File \"{{name}}\" exceeds 10MB limit",
+    "invalidType": "File \"{{name}}\" is not a supported format",
+    "success": "File uploaded successfully!",
+    "error": "Upload failed. Please try again.",
+    "uploadQueue": "Upload Queue",
+    "uploading": "Uploading...",
+    "completed": "Upload complete",
+    "failed": "Upload failed",
+    "processingStarted": "AI processing started - you'll be notified when ready",
+    "startStudying": "Start Studying",
+    "loadingMaterials": "Loading your materials...",
+    "features": {
+      "ocr": {
+        "title": "Smart Text Extraction",
+        "desc": "AI extracts text from PDFs, images, and handwritten notes"
+      },
+      "analysis": {
+        "title": "Content Analysis",
+        "desc": "Automatic generation of summaries, key topics, and concepts"
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "desc": "Process materials in 70+ languages automatically"
+      }
+    }
+  },
+  "materials": {
+    "title": "Your Study Materials",
+    "deleted": "Material deleted successfully",
+    "deleteError": "Failed to delete material",
+    "confirmDelete": "Are you sure you want to delete \"{{name}}\"?",
+    "empty": {
+      "title": "No materials uploaded yet",
+      "description": "Upload your first study material to get started with AI-powered learning"
+    },
+    "status": {
+      "pending": "Pending",
+      "processing": "Processing",
+      "completed": "Ready",
+      "failed": "Failed"
+    },
+    "processing": "AI is analyzing your content...",
+    "failed": "Processing failed. Please try uploading again.",
+    "study": "Study",
+    "quiz": "Quiz",
+    "flashcards": "Cards",
+    "tutor": "Tutor",
+    "download": "Download",
+    "delete": "Delete"
+  },
+  "study": {
+    "materials": "Study Materials",
+    "flashcards": "Flashcards",
+    "quizzes": "Quizzes",
+    "progress": "Progress",
+    "difficulty": "Difficulty",
+    "topic": "Topic",
+    "score": "Score",
+    "timeSpent": "Time Spent",
+    "questionsAnswered": "Questions Answered",
+    "accuracy": "Accuracy"
+  },
+  "flashcards": {
+    "title": "Flashcards",
+    "showAnswer": "Show Answer",
+    "nextCard": "Next Card",
+    "previousCard": "Previous Card",
+    "markKnown": "I Know This",
+    "markUnknown": "Study More",
+    "difficulty": {
+      "easy": "Easy",
+      "medium": "Medium",
+      "hard": "Hard"
+    },
+    "dueForReview": "Due for Review",
+    "newCards": "New Cards",
+    "reviewComplete": "Review Complete!"
+  },
+  "flashcard": {
+    "title": "Flashcards",
+    "subtitle": "Practice with spaced repetition for better retention",
+    "loading": "Loading flashcards...",
+    "front": "Question",
+    "back": "Answer",
+    "clickToReveal": "Click to reveal answer",
+    "clickToHide": "Click to hide answer",
+    "progress": "Progress: {{current}} / {{total}}",
+    "reviewed": "reviewed",
+    "howWellDidYouKnow": "How well did you know this?",
+    "reviewHelp": "Your response helps optimize the spaced repetition algorithm",
+    "sessionComplete": "Study Session Complete!",
+    "studyAgain": "Study Again",
+    "sessionStats": "Session Statistics",
+    "correct": "Correct",
+    "incorrect": "Need Review",
+    "needReview": "Need Review",
+    "accuracy": "Accuracy",
+    "general": "General",
+    "backToLibrary": "Back to Flashcard Library",
+    "empty": {
+      "title": "No flashcards yet",
+      "description": "Generate flashcards from your study material to start practicing with spaced repetition"
+    },
+    "generateSettings": "Generation Settings",
+    "cardCount": "Number of Cards",
+    "generate": "Generate Flashcards",
+    "generating": "Generating...",
+    "generated": "Flashcards generated successfully!",
+    "generateError": "Failed to generate flashcards",
+    "reviewError": "Failed to record review",
+    "filters": "Study Options",
+    "studyMode": "Study Mode",
+    "mode": {
+      "due": "Due for Review",
+      "all": "All Cards",
+      "new": "New Cards",
+      "review": "Previously Studied"
+    },
+    "filterByTopic": "Filter by Topic",
+    "allTopics": "All Topics",
+    "startStudying": "Start Studying ({{count}} cards)",
+    "noCardsInFilter": "No cards match the selected filters",
+    "clearFilters": "Clear filters",
+    "stats": {
+      "total": "Total Cards",
+      "dueToday": "Due Today",
+      "new": "New Cards",
+      "progress": "Progress"
+    },
+    "quality": {
+      "blackout": "Complete blackout",
+      "wrong": "Incorrect",
+      "hard": "Hard",
+      "good": "Good",
+      "easy": "Easy"
+    }
+  },
+  "quiz": {
+    "title": "Quiz",
+    "question": "Question {{current}} of {{total}}",
+    "submitAnswer": "Submit Answer",
+    "nextQuestion": "Next Question",
+    "finishQuiz": "Finish Quiz",
+    "results": "Quiz Results",
+    "score": "Your Score: {{score}}/{{total}}",
+    "percentage": "{{percentage}}% Correct",
+    "reviewAnswers": "Review Answers",
+    "retakeQuiz": "Retake Quiz",
+    "correctAnswer": "Correct Answer",
+    "yourAnswer": "Your Answer",
+    "explanation": "Explanation"
+  },
+  "tutor": {
+    "title": "AI Tutor",
+    "pageTitle": "AI Tutor",
+    "subtitle": "Ask me anything about your study material",
+    "pageSubtitle": "Your personal AI assistant for understanding study materials",
+    "pageSubtitleWithMaterial": "Get personalized help with {{material}}",
+    "welcome": "Welcome to your AI Tutor!",
+    "welcomeMessage": "I'm here to help you understand your study material better. Ask me any question!",
+    "askQuestion": "Ask a question about your study material...",
+    "questionSent": "Question sent successfully!",
+    "error": "Failed to send question. Please try again.",
+    "conversationCleared": "Conversation cleared",
+    "clearError": "Failed to clear conversation",
+    "confirmClear": "Are you sure you want to clear the conversation history?",
+    "clearConversation": "Clear conversation",
+    "loadingConversation": "Loading conversation...",
+    "loadingMaterial": "Loading study material...",
+    "thinking": "Thinking...",
+    "copied": "Copied to clipboard",
+    "copyError": "Failed to copy",
+    "copy": "Copy",
+    "helpful": "Helpful",
+    "notHelpful": "Not helpful",
+    "enterToSend": "Enter to send, Shift+Enter for new line",
+    "suggestedQuestions": "Suggested Questions",
+    "complexity": {
+      "simple": "Simple",
+      "detailed": "Detailed",
+      "advanced": "Advanced"
+    },
+    "categories": {
+      "concepts": "Key Concepts",
+      "examples": "Examples",
+      "applications": "Applications"
+    },
+    "features": {
+      "contextual": {
+        "title": "Contextual Understanding",
+        "desc": "I understand your specific study material and can answer questions based on its content"
+      },
+      "multilingual": {
+        "title": "Multilingual Support",
+        "desc": "Ask questions and receive answers in your preferred language"
+      },
+      "adaptive": {
+        "title": "Adaptive Complexity",
+        "desc": "Explanations adapt to your chosen complexity level from simple to advanced"
+      }
+    },
+    "tips": {
+      "title": "Tips for Better Conversations",
+      "specific": "Ask specific questions about concepts you don't understand",
+      "examples": "Request examples or real-world applications",
+      "clarify": "Ask for clarification if an answer is too complex or too simple",
+      "language": "Switch languages anytime using the language selector"
+    }
+  },
+  "progress": {
+    "title": "Learning Progress",
+    "subtitle": "Track your learning journey and identify areas for improvement",
+    "loading": "Loading your progress...",
+    "avgScore": "Average Score",
+    "studyStreak": "Day Streak",
+    "flashcards": "Flashcards",
+    "studyTime": "Study Time",
+    "performance": "Performance Analysis",
+    "comprehension": "Comprehension",
+    "consistency": "Study Consistency",
+    "retention": "Knowledge Retention",
+    "recommendations": "Recommendations",
+    "improveScores": "Focus on improving quiz scores",
+    "maintainScores": "Excellent quiz performance!",
+    "scoreAdvice": "Review weak areas and practice more",
+    "scorePraise": "Keep up the great work!",
+    "buildStreak": "Build a consistent study habit",
+    "greatStreak": "Amazing study streak!",
+    "streakAdvice": "Try to study a little bit every day",
+    "streakPraise": "Your consistency is paying off!",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "achievements": "Achievements",
+      "heatmap": "Activity Heatmap"
+    }
+  },
+  "weakAreas": {
+    "empty": {
+      "title": "No weak areas identified yet",
+      "description": "Take more quizzes to get personalized recommendations"
+    },
+    "errorCount": "{{count}} incorrect answers",
+    "study": "Study",
+    "practice": "Practice",
+    "viewAll": "View all weak areas"
+  },
+  "achievements": {
+    "empty": "No achievements yet",
+    "emptyDesc": "Keep studying to unlock achievements!",
+    "category": {
+      "milestone": "Milestone",
+      "performance": "Performance",
+      "consistency": "Consistency"
+    }
+  },
+  "heatmap": {
+    "title": "Activity Heatmap",
+    "description": "Visual representation of your study activity over time",
+    "placeholder": "Heatmap visualization will be displayed here"
+  },
+  "chart": {
+    "line": "Line",
+    "bar": "Bar",
+    "quizScore": "Quiz Score (%)",
+    "studyTime": "Study Time (min)",
+    "date": "Date: {{date}}"
+  },
+  "period": {
+    "week": "Last Week",
+    "month": "Last Month",
+    "quarter": "Last Quarter"
+  },
+  "summary": {
+    "activeDays": "Active Days",
+    "avgScore": "Avg Score",
+    "totalTime": "Total Time",
+    "trend": "Trend"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile": "Profile",
+    "preferences": "Preferences",
+    "language": "Language",
+    "notifications": "Notifications",
+    "privacy": "Privacy",
+    "about": "About",
+    "version": "Version"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "upload": "Upload",
+    "study": "Study",
+    "progress": "Progress",
+    "settings": "Settings"
+  }
+}
